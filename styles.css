@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .grid-container {
     background-color: #3D3A4B;
     display: grid;
@@ -18,11 +19,10 @@
     "main-e"
     "."
     "footer";
-
 }
 
 /*schermvulling voor tablet, pc, tv*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 576px) {
     .grid-container {
         background-color: #3D3A4B;
         display: grid;
@@ -31,16 +31,15 @@
         row-gap: 16px;
         column-gap: 16px;
 
-
         grid-template-areas:
-    "aside-a header header"
-    "aside-b header header"
-    "aside-b main-e main-d"
-    "aside-b main-e ."
-    "footer footer footer";
-
+            "aside-a header header"
+            "aside-b header header"
+            "aside-b main-e main-d"
+            "aside-b main-e ."
+            "footer footer footer";
     }
 }
+
 .grid-item {
     margin: 5px;
     padding: 8px;
@@ -76,6 +75,6 @@
     grid-area: footer;
 }
 
-#blanco{
+#blanco {
     grid-area: blanco ;
 }
