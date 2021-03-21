@@ -12,13 +12,13 @@
     row-gap: 16px;
 
     grid-template-areas:
-    "aside-a"
-    "aside-b"
-    "header"
-    "main-d"
-    "main-e"
-    "."
-    "footer";
+            "aside-a"
+            "aside-b"
+            "header"
+            "main-d"
+            "main-e"
+            "."
+            "footer";
 }
 
 /*schermvulling voor tablet, pc, tv*/
@@ -75,6 +75,3 @@
     grid-area: footer;
 }
 
-#blanco {
-    grid-area: blanco ;
-}
